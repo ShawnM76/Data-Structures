@@ -1,6 +1,4 @@
 from doubly_linked_list import DoublyLinkedList
-import sys
-sys.path.append('../doubly_linked_list')
 
 
 class Queue:
@@ -23,3 +21,7 @@ class Queue:
 
     def len(self):
         return self.size
+
+
+# self.point1 += 1
+# self.point2 += 2
